@@ -1,6 +1,6 @@
 # andi-dicts
 
-This repository contains a digitalized version of Andi dictionary from (Kibrik, Kodzasov, 1990) [1]. It was made by Valeria Buntiakova (NRU HSE, valleriabun@gmail.com) as a part of course paper "Morphological Parser of Andi in lexd and twol". (Main repository of the progect: https://github.com/vbunt/andi)
+This repository contains a digitalized version of Andi dictionary from (Kibrik, Kodzasov, 1990) [1]. It was made by Valeria Buntiakova (NRU HSE, valleriabun@gmail.com) as a part of course paper "Morphological Parser of Andi in lexd and twol". (Main repository of the project: https://github.com/vbunt/andi)
 
 Nouns, adjectives and adverbs were digitalized. Latin script follows [2], cyryllic script follows [3]. Every entry consists of _id_ in the dictionary, _name of the dictionary entry_ and _diagnostic forms_. If there were either more than one lexeme or variants for one lexeme in the same entry, they were treated as different entries. 
 
