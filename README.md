@@ -1,40 +1,41 @@
 # andi-dicts
 
-Этот репозиторий содержит оцифрованную версию _андийского_ словаря из книги "Сопоставительное изучение дагестанских языков: имя, фонетика" (1990) А. Е. Кибрика и С. В. Кодзасова. Она была создана Валерией Бунтяковой (НИУ ВШЭ) в рамках курсовой работы "Создание морфологического парсера андийского языка в системе lexd и twol". (Основной код проекта: https://github.com/vbunt/andi)
+This repository contains a digitalized version of Andi dictionary from (Kibrik, Kodzasov, 1990) [1]. It was made by Valeria Buntiakova (NRU HSE, valleriabun@gmail.com) as a part of course paper "Morphological Parser of Andi in lexd and twol". (Main repository of the progect: https://github.com/vbunt/andi)
 
-Латиническая графика следует [1], кириллическая графика следует [2].
-Если в одной словарной статье были указаны либо несколько лексем, либо варианты для одной лексемы, они были записаны в разные строки. 
+Latin script follws [2], cyryllic script follows [3]. Every entry consists of _id_ in the dictionary, _name of the dictionary entry_ and _diagnostic forms_. If there were either more than one lexeme on variants for one lexeme in the same entry, they were treated as different entries. 
+
 
 ### andi-nouns.csv
-- id - номер слова в словаре
-- word - название словарной статьи
-- type - класс слова
-- abs - основа абсолютива, совпадает с формой абсолютива
-- sg stem - косвенная основа единственного числа
-- abs pl - основа множественного числа абсолютива
-- abs pl flex - показатель множественного числа абсолютива
-- pl stem - косвенная основа множественного числа; если не была указана в словаре, совпадает с основой множественного числа абсолютива
-- остальные столбцы содержат всё то же самое, но в кириллице
+- id - entry's id in the dictionary
+- word - name of the dictionary entry
+- type - word's class/type
+- abs - absolutive stem
+- sg stem - singular oblique stem
+- abs pl - plural asolutive stem
+- abs pl flex - plural absolutive affix
+- pl stem - plural oblique stem; if not specified, the same as plural absolutive stem
+- other columns contain transliterated versions of the columns
 
 ### andi-adjectives.csv
-- id - номер слова в словаре
-- rus - название словарной статьи
-- type - класс, с которым употребляется эта основа
-- no_class - основы, к которым не присоединяется классный показатель
-- first_stem - первая часть основы, у которой класссный показатель является инфиксом (здесь такая только одна)
-- affix - классный показатель, который используется с этой основой
-- stem - основы, к которым присоединяется классный показатель ИЛИ вторая часть основы, у которой классный показатель является инфиксом
-- остальные столбцы содержат всё то же самое, но в кириллице
+- id - entry's id in the dictionary
+- rus - name of the dictionary entry
+- type - class which the stem is used with
+- no_class - stems that cannot take class affixes
+- first_stem - the first part of the stem which class affix is infixated
+- affix - class affix that is used with this stem
+- stem - stems that take class affixes OR the second part of the stem which class affix is infixated
+- other columns contain transliterated versions of the columns
 
 ### andi-adverbs.csv
-- id - номер слова в словаре
-- rus - название словарной статьи
-- type - класс, с которым употребляется эта основа
-- no_class_stem - основы, к которым не присоединяется классный показатель
-- affix - классный показатель, который используется с этой основой
-- stem - основы, к которым присоединяется классный показатель
-- остальные столбцы содержат всё то же самое, но в кириллице
+- id - entry's id in the dictionary
+- rus - name of the dictionary entry
+- type - class which the stem is used with
+- no_class_stem - stems that cannot take class affixes
+- affix - class affix that is used with this stem
+- stem - stems that take class affixes
+- other columns contain transliterated versions of the columns
 
-### Литература
-1. Kaye, S., Martynova, A., Moroz, G., Rochant, N., Verhees, S., & Zakirova, A.. (forthcoming). A sketch of Andi (Zilo dialect). In Koryakov, Y. and Maisak, T. (eds) The Caucasian Languages. An International Handbook. De Gruyter Mouton: Berlin/New York.
-2. Салимов Х.С. (2010). Гагатлинский говор андийского языка. ИЯЛИ.
+### Bibliography
+1. Кибрик, А. Е., & Кодзасов, С. В. (1990). Сопоставительное изучение дагестанских языков: имя, фонетика (Vol. 2). Издательство Московского университета.
+2. Kaye, S., Martynova, A., Moroz, G., Rochant, N., Verhees, S., & Zakirova, A.. (forthcoming). A sketch of Andi (Zilo dialect). In Koryakov, Y. and Maisak, T. (eds) The Caucasian Languages. An International Handbook. De Gruyter Mouton: Berlin/New York.
+3. Салимов Х.С. (2010). Гагатлинский говор андийского языка. ИЯЛИ.
