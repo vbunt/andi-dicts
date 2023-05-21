@@ -11,7 +11,7 @@ id,word,type,abs,sg stem,abs pl,abs pl flex,pl stem,abs_cyr,sg stem_cyr,abs pl_c
 9,НOC,5,mahar,mahar,mahardu,l,mahardu,магьар,магьар,магьарду,магьарду,л
 10,КЛЮВ,5,mahar,mahar,mahardu,l,mahardu,магьар,магьар,магьарду,магьарду,л
 10,КЛЮВ,5,q'amu,q'amuo,q'amodu,l,q'amodu,къаму,къамуо,къамоду,къамоду,л
-11,РОТ,5,k'ol,k'olo,k'olibo,l,k'olibo,кІол,кІоло,кІолибо,кІолибо,л
+11,РОТ,5,k'ol,k'olo,k'olibo,l,k'olibo,кІол,кІолло,кІолибо,кІолибо,л
 12,ГУБА (губы и часть лица вокруг губ),5,sim,sim,simmu,l,simmu,сим,сим,симму,симму,л
 12,ГУБА (морда),5,s:unt'ul,s:unt'ul,s:unt'ulo,l,s:unt'ulo,ссунтІул,ссунтІул,ссунтІуло,ссунтІуло,л
 13,ПОДБОРОДОК,4,žuna,žunalo,žunibo,l,žunibo,жуна,жунало,жунибо,жунибо,л
@@ -188,7 +188,7 @@ id,word,type,abs,sg stem,abs pl,abs pl flex,pl stem,abs_cyr,sg stem_cyr,abs pl_c
 147,ОЛЕНЬ,3,belir,belir,belirdu,l,belirdu,белир,белир,белирду,белирду,л
 149,МЕДВЕДЬ,3,seji,sejo,seji,l,sejili,сейи,сейо,сейи,сейили,л
 150,ВОЛК,3,boc'o,boc'u,boc'o,l,boc'oli,боцІо,боцІу,боцІо,боцІоли,л
-151,ЛИСА,3,sor,sor,sordu,l,sordu,сор,сор,сорду,сорду,л
+151,ЛИСА,3,sor,sor,sordu,l,sordu,сор,соро,сорду,сорду,л
 152,ЗАЯЦ,3,ƛ'ank'ala,ƛ'ank'alu,ƛ'ank'aldu,l,ƛ'ank'aldu,кьанкІала,кьанкІалу,кьанкІалду,кьанкІалду,л
 153,БАРСУК,3,onχ:ur,onχ:ur,onχ:urdu,l,onχ:urdu,онххур,онххур,онххурду,онххурду,л
 154,"ЗВЕРЬ ПУШНОЙ (ЛАСКА, КУНИЦА, БЕЛКА)",3,darɢᵂa,darɢᵂalo,darɢᵂibdu,l,darɢᵂibdu,даркъгва,даркъгвало,даркъгвибду,даркъгвибду,л
