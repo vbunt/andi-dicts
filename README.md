@@ -8,11 +8,11 @@ Nouns, adjectives and adverbs were digitalized. Latin script follows [2], cyrill
 - id - entry's id in the dictionary
 - word - name of the dictionary entry
 - type - word's class/type
-- abs - absolutive stem
-- sg stem - singular oblique stem
-- abs pl - plural asolutive stem
-- abs pl flex - plural absolutive affix
-- pl stem - plural oblique stem; if not specified, the same as plural absolutive stem
+- abs_sg - absolutive stem
+- obl_sg_stem - singular oblique stem
+- abs_pl - plural asolutive stem
+- abs_pl_suffix - plural absolutive affix
+- obl_pl_stem - plural oblique stem; if not specified, the same as plural absolutive stem
 - other columns contain transliterated versions of the columns
 
 ### andi-adjectives.csv
