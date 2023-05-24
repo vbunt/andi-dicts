@@ -10,7 +10,7 @@ Nouns, adjectives and adverbs were digitalized. Latin script follows [2], cyrill
 - type - word's class/type
 - abs_sg - absolutive stem
 - obl_sg_stem - singular oblique stem
-- abs_pl - plural asolutive stem
+- abs_pl - plural absolutive stem
 - abs_pl_suffix - plural absolutive affix
 - obl_pl_stem - plural oblique stem; if not specified, the same as plural absolutive stem
 - other columns contain transliterated versions of the columns
@@ -33,6 +33,17 @@ Nouns, adjectives and adverbs were digitalized. Latin script follows [2], cyrill
 - affix - class affix that is used with this stem
 - stem - stems that take class affixes
 - other columns contain transliterated versions of the columns
+
+### andi-adverbs.csv
+- id - entry's id in the dictionary
+- word - name of the dictionary entry
+- roles - the verb's role structure
+- andi_roles - the verb's role structure if special for Andi
+- aorist, infinitive, imperative - diagnostic forms from the dictionary
+- aorist_cyr, infinitive_cyr, imperative_cyr - diagnostic forms from the dictionary in Cyrillic script
+- stem_type	- oral, nasal (see [2]) or -di
+- class	- 1 if the verb does can attach a class marker, 0 if not, *infix* is the marker is infixated
+- ablaut - 1 if the verb has vowel alterantion for number, 0 if not
 
 ### Bibliography
 1. Кибрик, А. Е., & Кодзасов, С. В. (1990). Сопоставительное изучение дагестанских языков: имя, фонетика (Vol. 2). Издательство Московского университета.
