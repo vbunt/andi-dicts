@@ -34,7 +34,7 @@ Nouns, adjectives and adverbs were digitalized. Latin script follows [2], cyrill
 - stem - stems that take class affixes
 - other columns contain transliterated versions of the columns
 
-### andi-adverbs.csv
+### andi-verbs.csv
 - id - entry's id in the dictionary
 - word - name of the dictionary entry
 - roles - the verb's role structure
